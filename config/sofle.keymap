@@ -102,7 +102,7 @@
                          &trans             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "system";
+            label = "adjust";
         };
     };
 };
