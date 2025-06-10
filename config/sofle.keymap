@@ -83,11 +83,11 @@
             //              |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4                          &trans         &trans             &trans            &trans        &trans             &trans
-&trans      &kp INSERT    &kp PRINTSCREEN  &kp K_APP       &trans        &trans                                &kp PG_UP      &kp C_VOL_UP       &kp UP            &kp C_VOL_DN  &kp PIPE           &kp F12
-&trans      &kp LEFT_ALT  &kp CARET        &kp LEFT_SHIFT  &trans        &kp CAPS                              &kp PAGE_DOWN  &kp LEFT           &kp DOWN          &kp RIGHT     &kp DOUBLE_QUOTES  &kp BACKSLASH
-&trans      &kp K_UNDO    &kp K_CUT        &kp K_COPY      &kp K_PASTE   &bootloader   &trans       &trans     &trans         &kp C_PREV         &kp C_PP          &kp C_NEXT    &trans             &trans
-                          &trans           &trans          &trans        &mo 1         &kp ENTER    &kp SPACE  &mo 2          &ext_power EP_OFF  &ext_power EP_ON  &trans
+&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4                          &trans         &trans             &trans            &trans        &trans             &trans
+&trans             &kp INSERT    &kp PRINTSCREEN  &kp K_APP       &trans        &trans                                &kp PG_UP      &kp C_VOL_UP       &kp UP            &kp C_VOL_DN  &kp PIPE           &kp F12
+&sys_reset         &kp LEFT_ALT  &kp CARET        &kp LEFT_SHIFT  &trans        &kp CAPS                              &kp PAGE_DOWN  &kp LEFT           &kp DOWN          &kp RIGHT     &kp DOUBLE_QUOTES  &kp BACKSLASH
+&ext_power EP_TOG  &kp K_UNDO    &kp K_CUT        &kp K_COPY      &kp K_PASTE   &bootloader   &trans       &trans     &trans         &kp C_PREV         &kp C_PP          &kp C_NEXT    &trans             &trans
+                                 &trans           &trans          &trans        &mo 1         &kp ENTER    &kp SPACE  &mo 2          &ext_power EP_OFF  &ext_power EP_ON  &trans
             >;
 
             sensor-bindings = <&layer_rotate 2 1>;
