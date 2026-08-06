@@ -18,8 +18,11 @@
 #
 ---
 include:
-  - board: bluemicro840//zmk
+  - board: nice_nano//zmk
     shield: sofle_left nice_view_adapter nice_view
-  - board: bluemicro840//zmk
+    artifact-name: sofle_left
+
+  - board: nice_nano//zmk
     shield: sofle_right nice_view_adapter nice_view
+    artifact-name: sofle_right
 
