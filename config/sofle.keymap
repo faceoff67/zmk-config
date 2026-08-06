@@ -111,11 +111,11 @@
 
         adjust_layer {
             bindings = <
-&trans       &trans      &trans    &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans      &trans
-&trans       &trans      &trans    &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans      &trans
-&bootloader  &sys_reset  &kt PLUS  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &sys_reset  &bootloader
-&trans       &trans      &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans      &trans
-                         &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans       &trans      &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans      &trans
+&trans       &trans      &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans      &trans
+&bootloader  &sys_reset  &kt A   &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &sys_reset  &bootloader
+&trans       &trans      &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans      &trans
+                         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "adjust";
